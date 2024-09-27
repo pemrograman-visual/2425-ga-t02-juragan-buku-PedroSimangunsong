@@ -4,10 +4,10 @@
         <attribute name="name" value="T01"/>
         <attribute name="authors" value="Ira Wianda"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:28:17 AM"/>
+        <attribute name="saved" value="2024-09-27 11:43:52 AM"/>
         <attribute name="created" value="SXJhIFdpYW5kYTtMQVBUT1AtQVMzVkEwRDQ7MjAyMi0xMi0yMjswNzoxOTo0OSBQTTszMjI2"/>
         <attribute name="edited" value="SXJhIFdpYW5kYTtMQVBUT1AtQVMzVkEwRDQ7MjAyMi0xMi0yMjswNzo1MzoxMCBQTTsxOzMzMjA="/>
-        <attribute name="edited" value="YXN1cztMQVBUT1AtRzJKVU1IREQ7MjAyNC0wOS0yNzsxMToyODoxNyBBTTs2OzI5MDY="/>
+        <attribute name="edited" value="YXN1cztMQVBUT1AtRzJKVU1IREQ7MjAyNC0wOS0yNzsxMTo0Mzo1MiBBTTs3OzI5MDM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -45,7 +45,7 @@
                                             <assign variable="kategori" expression="&quot;average&quot;"/>
                                         </then>
                                         <else>
-                                            <if expression="kategori&lt;3.0">
+                                            <if expression="rating&lt;3.0">
                                                 <then>
                                                     <assign variable="kategori" expression="&quot;low&quot;"/>
                                                 </then>
